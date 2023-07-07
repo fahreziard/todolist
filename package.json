@@ -1,0 +1,17 @@
+{
+  "name": "reactjs-multinity",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "build": "babel src --out-dir public -w",
+    "serve": "lite-server --baseDir public",
+    "start":  "yarn build & yarn serve"
+  }
+}
